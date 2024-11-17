@@ -1,0 +1,3 @@
+vboxmanage startvm "K8s Master" --type headless
+vboxmanage startvm "K8s worker 1" --type headless
+vboxmanage startvm "K8s worker 2" --type headless
