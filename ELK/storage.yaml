@@ -3,7 +3,7 @@ apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
   name: logging-pvc
-  namespace: kube-system
+  namespace: logging
 spec:
   storageClassName: myloggingstorage
   accessModes:
